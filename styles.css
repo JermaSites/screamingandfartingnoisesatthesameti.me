@@ -1,5 +1,29 @@
-#mouseTarget {
-  box-sizing: border-box;
-  width:15rem;
-  border:1px solid #333;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+#changeMe {
+	height: 110vh;
+	margin: 0px;
+	padding: 0px;
+	background-image:url('images/image (1).png');
+	background-size: 100% 100%;
+	background-position-x: center;
+	background-position-y: center;
+}
+
+body {
+  overflow: hidden; /* Hide scrollbars */
+}
+
+#about {
+    font-family: 'Open Sans', sans-serif;
+	position: absolute;
+	opacity: 0.5;
+	bottom: 0;
+	right: 0;
+	background-color: white;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
 }
